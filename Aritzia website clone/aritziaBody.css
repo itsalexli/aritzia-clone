@@ -1,0 +1,276 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Montserrat;
+  margin-left: 50px;
+}
+
+body {
+  margin: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: Playfair Display;
+  font-weight: medium;
+  font-size: 70px;
+  color: black;
+  margin-left: 50px;
+  flex: 1;
+}
+
+.icons {
+  max-width: 100%;
+  width: 225px;
+  height: 55px;
+  padding: 0;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+.categories {
+  margin-left: 45px;
+  margin-bottom: 0px;
+}
+.span {
+  color: black;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.subtitle {
+  margin-top: 50px;
+  font-size: 45px;
+  font-weight: 500;
+  margin-left: 50px;
+  width: 1300px;
+  resize: auto;
+}
+
+.guide {
+  text-decoration: underline;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.guide:hover {
+  cursor: pointer;
+}
+.introPicContainer {
+  margin-top: 20px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.pic {
+  padding: 2px;
+  width: 180px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  margin-right: 8px;
+}
+
+.pic:hover {
+  cursor: pointer;
+}
+.pic1 {
+  padding: 2px;
+  width: 180px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  margin-right: 8px;
+}
+.pic1:hover {
+  border-color: black;
+  cursor: pointer;
+}
+
+.introPicText {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 2px;
+  font-stretch: condensed;
+}
+
+.dropdown {
+  font-size: 12px;
+  margin-top: 50px;
+  width: 110px;
+  margin-left: 55px;
+}
+
+.buttonContainer {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.button {
+  background-color: white;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  font-family: Montserrat;
+  font-size: 12px;
+  padding: 6px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.pictureFlex1 {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: colrowmn;
+  grid-gap: 8px;
+}
+
+.bigPic {
+  flex: 1;
+  max-width: 380px;
+  width: auto;
+  opacity: 1;
+  position: absolute;
+
+  z-index: 1;
+  overflow: hidden;
+}
+.bigPic:hover {
+  opacity: 0;
+}
+.clickPic {
+  flex: 1;
+  max-width: 380px;
+  width: auto;
+  position: relative;
+  z-index: 0;
+}
+
+.brandRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.brand {
+  margin-top: 6px;
+  margin-left: 10px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.fa {
+  margin-right: 10px;
+}
+.picName {
+  margin-top: 6px;
+  margin-left: 10px;
+  font-size: 12px;
+  width: 200px;
+}
+.price {
+  margin-top: 6px;
+  margin-left: 10px;
+  font-size: 12px;
+  width: 200px;
+}
+
+.colorContainer {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.colorButton1 {
+  padding: 0;
+  width: 13px;
+  height: 13px;
+  border-width: 1px;
+  border-radius: 6px;
+  margin-right: 3px;
+  background-color: rgb(0, 0, 95);
+  cursor: pointer;
+}
+
+.colorButton2 {
+  padding: 0;
+  width: 13px;
+  height: 13px;
+  border-width: 1px;
+  border-radius: 6px;
+  margin-right: 3px;
+  background-color: rgb(170, 170, 170);
+  cursor: pointer;
+}
+
+.colorButton3 {
+  padding: 0;
+  width: 13px;
+  height: 13px;
+  border-width: 1px;
+  border-radius: 6px;
+  margin-right: 3px;
+  background-color: rgb(30, 30, 30);
+  cursor: pointer;
+}
+
+.colorButton4 {
+  padding: 0;
+  width: 13px;
+  height: 13px;
+  border-width: 1px;
+  border-radius: 6px;
+  margin-right: 3px;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.colorButton5 {
+  padding: 0;
+  width: 13px;
+  height: 13px;
+  border-width: 1px;
+  border-radius: 6px;
+  margin-right: 10px;
+  background-color: rgb(162, 162, 162);
+  cursor: pointer;
+}
+
+.add {
+  margin-left: 20px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.headerButton {
+  color: white;
+  background-color: black;
+  margin: 0;
+  width: 100%;
+  height: 30px;
+  font-family: Montserrat;
+  border-color: black;
+  border-style: solid;
+  font-size: 11px;
+}
